@@ -8,7 +8,7 @@ snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
 
 colo desert
 set nocompatible
-filetype on
+"filetype on
 filetype plugin on
 filetype indent on
 set history=1000
