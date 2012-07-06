@@ -8,7 +8,7 @@ snor <c-j> <esc>i<right><c-r>=TriggerSnippet()<cr>
 
 colo desert
 set nocompatible
-filetype on
+filetype off
 filetype plugin on
 filetype indent on
 set history=1000
@@ -64,3 +64,12 @@ set guioptions=m
 map <C-l> :tabnext <CR>
 map <C-h> :tabprevious <CR>
 set softtabstop=2
+
+
+"powerline config
+let g:Powerline_symbols = 'fancy'
+"https://gist.github.com/1595572  Mac fonts patch
+
+
+
+source ~/.vundle.vim
