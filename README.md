@@ -1,1 +1,1 @@
-cd vimrc & bash install.sh
+cd vimrc && bash install.sh
